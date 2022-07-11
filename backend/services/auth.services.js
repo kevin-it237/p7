@@ -23,7 +23,7 @@ passwordSchema
   .has()
   .not()
   .spaces();
-
+  (['Passw0rd', 'Password123'])
 // create user
 exports.signup = async (req, res, next) => {
   if(!emailValidator.validate(req.body.email)) {
