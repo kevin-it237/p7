@@ -23,7 +23,7 @@ const Log = () => {
   return (
     <div className="connexion-page">
       <h2>
-        Bienvenue à <br /> <span>Groupomania</span>
+        <span>Groupomania</span>
       </h2>
       <div className="connectionForm">
         <div className="formContainer">
