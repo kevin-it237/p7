@@ -23,7 +23,8 @@ passwordSchema
   .has()
   .not()
   .spaces();
-// CREATE USER //
+
+// create user
 exports.signup = async (req, res, next) => {
   if(!emailValidator.validate(req.body.email)) {
     return res.status(401).json({message: "Veuillez entrer une adresse email valide"})

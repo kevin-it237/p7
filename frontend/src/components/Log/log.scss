@@ -7,11 +7,10 @@
   align-items: center;
   h2 {
     font-size: 4rem;
-    color: rgb(190 3 3 / 70%);
-    margin: 3rem;
-    align-items: top;
+    color: $colorDark;
+    margin-left: 3rem;
     span {
-      color: #192041
+      color: rgb(207, 9, 9)
     }
   }
   .connectionForm {
@@ -30,7 +29,7 @@
       }
     }
     .active-btn {
-      background:rgb(190 3 3 / 47%);
+      background: $colorLight;
     }
   }
 }
