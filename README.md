@@ -1,4 +1,3 @@
-#P7
 L'objectif est de construire un réseau social d'entreprise.
 
 
