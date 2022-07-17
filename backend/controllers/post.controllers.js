@@ -4,7 +4,7 @@ const createHttpError = require("http-errors");
 const fs = require("fs");
 
 
-// CREATE POST
+// CREATE POST //
 
 exports.createPost = async (req, res, next) => {
   try {
@@ -37,7 +37,7 @@ exports.createPost = async (req, res, next) => {
   }
 };
 
-// SHOW ALL POSTS
+// SHOW ALL POSTS //
 
 exports.allPost = async (req, res, next) => {
   try {
@@ -90,7 +90,7 @@ exports.allPost = async (req, res, next) => {
   }
 };
 
-// SHOW ONE POST
+// SHOW ONE POST //
 
 exports.onePost = async (req, res, next) => {
   try {
