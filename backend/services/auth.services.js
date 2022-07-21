@@ -42,7 +42,7 @@ exports.signup = async (req, res, next) => {
       profile: {
         create: {
           bio: "Dites-nous en plus sur vous !",
-          image: "http://localhost:3000/images/default/avatar-1577909_640.webp",
+          image: "http://localhost:3000/images/default/avatar.png",
         },
       },
     },
