@@ -11,7 +11,6 @@ L'objectif est de construire un réseau social d'entreprise.
 # Installation
 
 **Backend :**
-- Créer un fichier `.env` pour remplir les variables d'environnements
 - Se rendre dans le dossier `Backend`, installer Node et toute les dépendances avec `npm install`
 - npx prisma generate
 - npx prisma migrate dev
