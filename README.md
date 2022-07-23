@@ -12,8 +12,6 @@ L'objectif est de construire un réseau social d'entreprise.
 
 **Backend :**
 - Se rendre dans le dossier `Backend`, installer Node et toute les dépendances avec `npm install`
-- npx prisma generate
-- npx prisma migrate dev
 - Lancer le serveur avec `npm run dev`
 - Utiliser `Ctrl+C` pour stopper le serveur
 - Utilisation du `PORT=3000`
