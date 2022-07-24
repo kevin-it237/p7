@@ -11,7 +11,7 @@ L'objectif est de construire un réseau social d'entreprise.
 # Installation
 
 **Backend :**
-- Créer un fichier .env pour remplir les variables d'environnements :
+- Créer un fichier .env pour remplir les variables d'environnements:
 DB_HOST=""
 DB_DB=""
 DB_USER=""
@@ -25,9 +25,9 @@ TOKEN="RANDOM_TOKEN_SECRET"
 
 
 **Frontend :**
-- Créer un fichier .env pour remplir les variables d'environnements
-
+- Créer un fichier .env pour remplir les variables d'environnements:
 CLIENT_URL=http://localhost:4200
 PORT=4200
+
 - Se rendre dans le dossier `Frontend`, installer les dépendances avec `npm install`
 - Lancer React avec la commande `npm start`
