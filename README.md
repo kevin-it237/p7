@@ -12,11 +12,24 @@ L'objectif est de construire un réseau social d'entreprise.
 
 **Backend :**
 - Créer un fichier .env pour remplir les variables d'environnements
+DB_HOST=""
+DB_DB=""
+DB_USER=""
+DB_PASSWORD=""
+<!-- SERVER -->
+PORT=3000
+<!-- TOKEN -->
+TOKEN="RANDOM_TOKEN_SECRET"
+
 - Se rendre dans le dossier `Backend`, installer Node et toute les dépendances avec `npm install`
 - Lancer le serveur avec `npm run dev`
 - Utiliser `Ctrl+C` pour stopper le serveur
-- Utilisation du `PORT=3000`
+
 
 **Frontend :**
+- Créer un fichier .env pour remplir les variables d'environnements
+<!-- SERVER -->
+CLIENT_URL=http://localhost:4200
+PORT=4200
 - Se rendre dans le dossier `Frontend`, installer les dépendances avec `npm install`
 - Lancer React avec la commande `npm start`
