@@ -28,7 +28,7 @@ L'objectif est de construire un réseau social d'entreprise.
 
 Créer un compte normal en vous inscrivant sur l'application
 
-ensuite dans la base de données sql taper la commande sql suivante :
+ensuite dans la base de données taper la commande suivante :
 
 UPDATE user SET isAdmin = ‘1’ WHERE id = ‘(l’id du compte à transformer en admin)’;
 
