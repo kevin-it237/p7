@@ -23,3 +23,15 @@ L'objectif est de construire un réseau social d'entreprise.
 
 - Cd dossier `Frontend`, installer les dépendances avec `npm install`
 - Lancer React avec la commande `npm start`
+
+**Pour créer un compte admin :**
+
+Créer un compte normal en vous inscrivant sur l'application
+
+ensuite dans la base de données sql taper la commande sql suivante :
+
+UPDATE user SET isAdmin = ‘1’ WHERE id = ‘(l’id du compte à transformer en admin)’;
+
+Par défaut le serveur client est accessible en local via le port 8080: http://localhost:4200/
+
+Bonne navigation !
