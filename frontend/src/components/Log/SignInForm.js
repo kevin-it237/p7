@@ -37,9 +37,11 @@ const SignInForm = () => {
       const token = await res.data.data.token;
       const user = await res.data.data.username;
       const userId = await res.data.data.id;
+      const isAdmin = await res.data.data.isAdmin;
       localStorage.setItem('token', token);
       localStorage.setItem('username', user);
       localStorage.setItem('userId', userId);
+      localStorage.setItem('isAdmin', isAdmin);
       navigate('/');
     } catch (error) {
       if(error.message === "Request failed with status code 400") {

@@ -30,6 +30,7 @@ const ShowProfile = () => {
       setImage(res.data.data.profile.image);
       setUsername(res.data.data.username);
       setBio(res.data.data.profile.bio);
+      localStorage.setItem('isAdmin', res.data.data.isAdmin);
     }
     showMyProfile();
   }, []);

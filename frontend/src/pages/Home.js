@@ -29,6 +29,18 @@ const Home = () => {
     fetchPosts()
   }, [fetchPosts]);
 
+  useEffect(() => {
+    const checkAdmin = async () => {
+      const res = await axios.get("http://localhost:3000/api/users/profile", {
+          headers: {
+              Authorization: `Bearer ${localStorage.getItem('token')}`
+          },
+      });
+      localStorage.setItem('isAdmin', res.data.data.isAdmin);
+    }
+    checkAdmin();
+  }, []);
+
 
   return (
     <div>
