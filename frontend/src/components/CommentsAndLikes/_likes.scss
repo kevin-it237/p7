@@ -3,5 +3,15 @@
     .icon-heart {
         margin-left: 1rem;
         margin-right: .5rem;
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+        svg {
+            font-size: 18px;
+            margin-right: 4px;
+        }
+    }
+    .liked {
+        color: rgb(208, 103, 85);
     }
 }

@@ -1,6 +1,7 @@
 import axios from "axios";
 import React from "react";
 import Comments from "../CommentsAndLikes/Comments";
+import Likes from "../CommentsAndLikes/Likes";
 import { BiTimeFive } from "react-icons/bi";
 import { BsFillTrashFill } from "react-icons/bs";
 
@@ -87,6 +88,7 @@ const Card = ({
             </span>
             <p className="date">{formatDateInput(takeDate)}</p>
             <p className="hour">{formatHourInput(takeHour)}</p>
+            <Likes id={id} />
           </div>
         </div>
         <Comments commentaires={commentaire} id={id} userId={userId}/>
